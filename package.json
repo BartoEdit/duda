@@ -4,13 +4,11 @@
   "version": "0.0.0",
   "main": "bot.js",
   "engines": {
-    "node": "14.x"
+    "node": "14.x",
+    "discord.js": "11.5.0",
+    "request": "2.81.0"
   },
   "scripts": {
     "start": "node bot.js"
-  },
-  "dependencies": {
-    "discord.js": "11.5.0",
-    "request": "2.81.0"
   }
 }
